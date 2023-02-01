@@ -100,17 +100,11 @@ GITHUB
 
 
 ## TEAM
-
-1. Nitik Bisht                           :- https://github.com/nitikbisht
-   
-2. Sanchit Jain                       :- https://github.com/Agramom
-
-3. Yogeshwari Surywanshi   :- https://github.com/Yogeshvari2902
-
-4. Adil Khan                           :- https://github.com/Adil-khan-007
-
-5. Ujjwal Singh                      :- https://github.com/Lucverse
-
+1. Yogeshvari Surywanshi   :- https://github.com/Yogeshvari2902
+2. Nitik Bisht             :- https://github.com/nitikbisht   
+3. Sanchit Jain            :- https://github.com/Agramom
+4. Adil Khan               :- https://github.com/Adil-khan-007
+5. Ujjwal Singh            :- https://github.com/Lucverse
 > ## THANK YOU !
 
 > TEAM AMAZON CLONE              
