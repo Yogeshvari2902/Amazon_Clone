@@ -1,0 +1,442 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Hooded Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61aTBDPQLVL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Men's hooded T-Shirt made up of cotton and the colour is black.",
+      "price": 549,
+      "discPrice": 219,
+      "discount": 60,
+      "color": "Black",
+      "subcategory": "Hooded",
+      "rating": {
+        "rate": 4,
+        "count": 548
+      }
+    },
+    {
+      "id": 2,
+      "title": "Regular Polo Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/91Er0gi0ALL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "The product will be an excellent pick for you. It ensures an easy maintenance.",
+      "price": 999,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "grey",
+      "subcategory": "tshirt",
+      "rating": {
+        "rate": 5,
+        "count": 7273
+      }
+    },
+    {
+      "id": 3,
+      "title": "Men's Regular T-shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/71nBuWTdJOL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symactive",
+      "description": "An - Symactive is a performance enhancing sportswear brand made for those who live an active lifestyle. The brand offers quality athletic-wear to help you get the most out of your sports hobbies and activities like running, cycling, yoga, workout and more.",
+      "price": 799,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Blue",
+      "subcategory": "tshirt",
+      "rating": {
+        "rate": 4,
+        "count": 2481
+      }
+    },
+    {
+      "id": 4,
+      "title": "Regular Fit T-shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61g-qXudTrL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Shop from a wide range of Sleeveless T-Shirt from GRITSTONES . Perfect for your everyday use, you could pair it with a stylish pair of Jeans or Trousers complete the look",
+      "price": 399,
+      "discPrice": 249,
+      "discount": 38,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2024
+      }
+    },
+    {
+      "id": 5,
+      "title": "Regular Fit Half Sleeve Polo T-Shirt for Men",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/51yCZ8QMPzL._UY550_.jpg",
+      "brand": "LEOTUDE",
+      "description": "A Style For Every Story introduing Regular T-shirt for men with color full latest on trend of fashion for all generations in extreme fashionable wardrobe collection.",
+      "price": 1099,
+      "discPrice": 299,
+      "discount": 73,
+      "color": "maroon",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 3,
+        "count": 21
+      }
+    },
+    {
+      "id": 6,
+      "title": "Hooded Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61aTBDPQLVL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Men's hooded T-Shirt made up of cotton and the colour is black.",
+      "price": 549,
+      "discPrice": 219,
+      "discount": 60,
+      "color": "Black",
+      "subcategory": "Hooded",
+      "rating": {
+        "rate": 4,
+        "count": 548
+      }
+    },
+    {
+      "id": 7,
+      "title": "Regular Polo Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/91Er0gi0ALL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "The product will be an excellent pick for you. It ensures an easy maintenance.",
+      "price": 999,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "grey",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 7273
+      }
+    },
+    {
+      "id": 8,
+      "title": "Men's Regular T-shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/71nBuWTdJOL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symactive",
+      "description": "An - Symactive is a performance enhancing sportswear brand made for those who live an active lifestyle. The brand offers quality athletic-wear to help you get the most out of your sports hobbies and activities like running, cycling, yoga, workout and more.",
+      "price": 799,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Blue",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 2,
+        "count": 2481
+      }
+    },
+    {
+      "id": 9,
+      "title": "Regular Fit T-shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61g-qXudTrL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Shop from a wide range of Sleeveless T-Shirt from GRITSTONES . Perfect for your everyday use, you could pair it with a stylish pair of Jeans or Trousers complete the look",
+      "price": 599,
+      "discPrice": 299,
+      "discount": 50,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2024
+      }
+    },
+    {
+      "id": 10,
+      "title": "Regular Fit Half Sleeve Polo T-Shirt for Men",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/51yCZ8QMPzL._UY550_.jpg",
+      "brand": "LEOTUDE",
+      "description": "A Style For Every Story introduing Regular T-shirt for men with color full latest on trend of fashion for all generations in extreme fashionable wardrobe collection.",
+      "price": 999,
+      "discPrice": 499,
+      "discount": 50,
+      "color": "maroon",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 1,
+        "count": 21
+      }
+    },
+    {
+      "id": 11,
+      "title": "Hooded Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61aTBDPQLVL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Men's hooded T-Shirt made up of cotton and the colour is black.",
+      "price": 549,
+      "discPrice": 219,
+      "discount": 60,
+      "color": "Black",
+      "subcategory": "Hooded",
+      "rating": {
+        "rate": 5,
+        "count": 548
+      }
+    },
+    {
+      "id": 12,
+      "title": "Regular Polo Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/91Er0gi0ALL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "The product will be an excellent pick for you. It ensures an easy maintenance.",
+      "price": 999,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "grey",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 7273
+      }
+    },
+    {
+      "id": 13,
+      "title": "Hooded Shirt",
+      "category": "men's clothing",
+      "img": "https://m.media-amazon.com/images/I/61aTBDPQLVL._AC_UL320_.jpg",
+      "brand": "GRITSTONES",
+      "description": "Men's hooded T-Shirt made up of cotton and the colour is black.",
+      "price": 549,
+      "discPrice": 219,
+      "discount": 60,
+      "color": "Black",
+      "subcategory": "Hooded",
+      "rating": {
+        "rate": 3,
+        "count": 548
+      }
+    },
+    {
+      "id": 14,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/716eGaBhx5L._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 798,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2464
+      }
+    },
+    {
+      "id": 15,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/81Vr4qPcelL._AC_UL320_.jpg",
+      "brand": "Max",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 199,
+      "discPrice": 169,
+      "discount": 15,
+      "color": "Blue",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 40
+      }
+    },
+    {
+      "id": 16,
+      "title": "Regular T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/71HlgPcbIwL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 998,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "maroon",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 3,
+        "count": 2464
+      }
+    },
+    {
+      "id": 17,
+      "title": "Women's Regular fit T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/71zpZZjibtL._UY550_.jpg",
+      "brand": "Van Heusen Woman",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 798,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2464
+      }
+    },
+    {
+      "id": 18,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/716eGaBhx5L._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 798,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 1,
+        "count": 2464
+      }
+    },
+    {
+      "id": 19,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/81Vr4qPcelL._AC_UL320_.jpg",
+      "brand": "Max",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 199,
+      "discPrice": 169,
+      "discount": 15,
+      "color": "Blue",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 40
+      }
+    },
+    {
+      "id": 20,
+      "title": "Regular T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/71HlgPcbIwL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 998,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "maroon",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2464
+      }
+    },
+    {
+      "id": 21,
+      "title": "Women's Regular fit T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/71zpZZjibtL._UY550_.jpg",
+      "brand": "Van Heusen Woman",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 798,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 3,
+        "count": 2464
+      }
+    },
+    {
+      "id": 22,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/716eGaBhx5L._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 798,
+      "discPrice": 299,
+      "discount": 63,
+      "color": "Black",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2464
+      }
+    },
+    {
+      "id": 23,
+      "title": "Women T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/81Vr4qPcelL._AC_UL320_.jpg",
+      "brand": "Max",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 199,
+      "discPrice": 169,
+      "discount": 15,
+      "color": "Blue",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 2,
+        "count": 40
+      }
+    },
+    {
+      "id": 24,
+      "title": "Regular T-Shirt",
+      "category": "women's clothing",
+      "img": "https://m.media-amazon.com/images/I/71HlgPcbIwL._AC_UL320_.jpg",
+      "brand": "Amazon Brand - Symbol",
+      "description": "Start every outfit with Symbol's elevated wardrobe basics that are versatile, stylish and compliment your everyday look. This pack of 2 t-shirts feature a round neck and short sleeves. Made in stretchable cotton jersey fabric with 3% lycra for a soft hand feel and added comfort. Style it with a pair of denim shorts or skinny jeans and sneakers for an easy-going casual look.",
+      "price": 998,
+      "discPrice": 299,
+      "discount": 70,
+      "color": "maroon",
+      "subcategory": "T-shirt",
+      "rating": {
+        "rate": 4,
+        "count": 2464
+      }
+    }
+  ],
+  "userdata": [
+    {
+      "id": "8461865894",
+      "name": "Sanchit Jain",
+      "number": "8461865894",
+      "email": "99sanchitjain@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "9461865894",
+      "name": "Sanchit Jain",
+      "number": "9461865894",
+      "email": "99sanchitjain@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6461865894",
+      "name": "Sanchit Jain",
+      "number": "6461865894",
+      "email": "99sanchitjain@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1234567890",
+      "name": "1234567890",
+      "number": "1234567890",
+      "email": "99sanchitjain@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

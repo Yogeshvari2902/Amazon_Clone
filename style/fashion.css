@@ -1,0 +1,69 @@
+
+#mainpage{
+    margin-top: 20px;
+    width: 85%;
+    /* margin-right: 10px; */
+    margin-left: 13%;
+    /* border: 2px solid grey; */
+    padding: 15px;
+}
+#category{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    width:90%;
+    margin: auto;
+    /* border: 2px solid grey; */
+}
+#category>div{
+    width:90%;
+    text-align: center;
+}
+#category>div:hover{
+    cursor: pointer;
+}
+#category>div>img{
+    width:100%;
+}
+#ads{
+    width: 100%;
+}
+#ads>img{
+    width: 100%;
+}
+#adult{
+    background-color: #EAEAEA;
+    padding-left: 15px;
+    padding: 10px 15px;
+}
+#adult>div{
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+#adult>div>h2{
+    margin-top: 3px;
+}
+#adult>div>div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 15px;
+    
+}
+#adult>div>div>img{
+    width: 80%;
+}
+img:hover{
+    cursor: pointer;
+}
+#brands{
+    margin: 20px;
+}
+#brands>div{
+    display: flex;
+    justify-content: space-around;
+}
+#brands>div>img{
+    width: 30%;
+}
+  

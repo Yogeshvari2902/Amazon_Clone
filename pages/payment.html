@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="../style/payment.css">
+</head>
+<body>
+    <div id="main">
+
+    
+            <div class="payment_container">
+                    <img src="https://m.media-amazon.com/images/G/31/checkout/payselect/progressbar-payments._CB485947677_.gif" alt="navImage">
+            </div>
+            <div id="payment_mainContainer">
+                <div class="payment_heading">Select a payment method </div>
+            </div>
+            <div class="payment_summery">
+                <div class="payment_massage">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhA6Pp5K6gCWA7e-xGR-TWEmmiDZJwWt1Qg&usqp=CAU" alt="importantIcon">
+                    </div>
+                    <span>As per new RBI guidelines, some of your previously saved cards may no longer be displayed. 
+                        Please enter your card details again and ensure you give your consent to save it for future payments. 
+                        <a href="">Learn more</a></span>
+                </div>
+            </div>
+
+            <div class="payment_parentContainer">
+
+            
+            <div class="payment_mainContainer">
+                <div class="payment_div">
+                    <div class="payment_heading2">
+                        Another payment method
+                    </div>
+                    <div class="payment_line">
+                    </div>
+                    <div id="payment">
+                        <label for="selectOption"></label>
+                        <div>
+                            <input type="radio" value="modenoCARD" name="payment" id="selectOption1">
+                            <div class="paymentcard_div">
+                                <div class="paymentcard_heading">
+                                    Pay with Debit/Credit/ATM Cards
+                                </div>
+                                <div class="paymentcard_detail">
+                                    You can save your cards as per new RBI guidelines.<a href="">Learn More</a>
+                                </div>
+                                <div class="paymentcard_images">
+                                    <div class="image_One">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="visaImg">
+                                    </div>
+                                    <div class="image_two">
+                                        <img src="https://freepngimg.com/thumb/credit_card/25637-6-credit-card-visa-and-master-card-transparent-image.png" alt="visaImg2">
+                                    </div>
+                                    <div class="image_three">
+                                        <img src="https://img.favpng.com/16/7/2/maestro-debit-card-credit-card-mastercard-payment-card-png-favpng-adJT4jBpBcnQpkLKSnqFmpPex.jpg" alt="visaImg3">
+                                    </div>
+                                    <div class="image_four">
+                                        <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/08/rupay-card-1566468196.jpg" alt="visaImg4">
+                                    </div>
+                                </div>
+                                <div class="paymentcard_images2">
+                                    <div class="image1">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-54TVDIB8qsQpa9ODbokrh0nJMGm80n_qOG2pL03PBOcVt1mcbFiHIrkoOS7cDBYk3qk&usqp=CAU" alt="plusiconImg">
+                                    </div>
+                                    <div class="image2">
+                                        <img src="https://www.rupay.co.in/images/rupay/rupay-prepaid/gift-card.png" alt="">
+                                    </div>
+                                    <div class="payment_detailDiv">
+                                        <a id="enterCardDetail">Enter card details</a>
+                                    </div>
+                                    <div class="payment_detailDiv2">
+                                        Amazon.com accepts all major credit & cards
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hello">
+                            <input type="radio" value="modeNB" name="payment" id="selectOption2">
+                            <div class="paymentcard_div2">
+                                <div class="paymentcard_heading2">
+                                    Net Banking
+                                </div>
+                            </div>
+                            <div>
+                                <select name="" id="hii" >
+                                    <option value="">Choose an Option</option>
+                                    <option value="Airtel Payment Banks">Airtel Payment Banks</option>
+                                    <option value="Axis Bank">Axis Bank</option>
+                                    <option value="HDFC Bank">HDFC Bank</option>
+                                    <option value="ICICI Bank">ICICI Bank</option>
+                                    <option value="Kotak Bank">Kotak Bank</option>
+                                    <option value="State Bank Of India">State Bank Of India</option>
+                                    <option value="Allahabad Bank">Allahabad Bank</option>
+                                    <option value="Andhra Bank">Andhra Bank</option>
+                                    <option value="Bank Of India">Bank Of India</option>
+                                    <option value="Bank Of Maharashtra">Bank Of Maharashtra</option>
+                                    <option value="Canara Bank">Canara Bank</option>
+                                    <option value="Catholic Syrian Bank">Catholic Syrian Bank</option>
+                                    <option value="Central Bank of India">Central Bank of India</option>
+                                    <option value="City Union Bank">City Union Bank</option>
+                                    <option value="Corporation">Corporation</option>
+                                </select>
+                            </div>
+            
+                        </div>
+                        <div class="hello">
+                            <input type="radio" value="modeUPI" name="payment" id="selectOption3">
+                            <div class="paymentcard_div3">
+                                <div class="paymentcard_heading3">
+                                    Other UPI Apps
+                                </div>
+                                <div class="input_gape">
+                                    <label for="">Please enter your UPI ID</label>
+                                    <div>
+                                        <input type="text" class="input_gape2" placeholder="Ex: MobileNumber@upi">
+                                        <button>Verify</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="hello">
+                            <input type="radio" value="modeCOD" name="payment" id="selectOption4">
+                            <div class="paymentcard_div4">
+                                <div class="paymentcard_heading4">
+                                    Pay on Delivery
+                                </div>
+                                <div class="payon_summery">
+                                    Scan & Pay using Amazon app (₹25 cashback on first transaction). Cash, UPI ,Cards also accepted.<a href="">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>       
+            </div>
+            <div class="continue_ButtonDiv">
+                <div class="continue_ButtonDiv2">
+                    <button onclick="POD()" id="continue2">Continue</button>
+                    <div>You can review this order before it's final.</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="lastBottomDiv">
+                <div>
+
+                    <div class="payment_option">
+                        More Payment Options
+                    </div>
+                    <div class="payment_line2">
+                    </div>
+                    <div class="property_onlyflex">
+                        <div class="property_flexcolumn">
+                            <div class="payment_giftcards">
+                                Gift Cards, Vouchers & Promotional Codes
+                            </div>
+                            <div class="payment_voucher">
+                                <a id="voucher" href="#voucher">Enter a gift card, voucher or promotional code</a>
+                                <select id="masaih">
+                                    <option value="0">None</option>
+                                 <option value="20">MASAI 20 : Get 20% discount upto Rs.500 </option></select>
+                            </div>
+                        </div>
+                        <div class="payment_lastImg">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/payments-portal/r1/gc._CB485935783_.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                     <div class="continue_ButtonDivSecond">
+                        <div class="continue_ButtonDiv2">
+                            <button onclick="POD()" id="continue1">Continue</button>
+                            <div>You can review this order before it's final.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment_lastDiv">
+                        <p>Need help? Check our</p><a href="">hepl pages</a><p>or</p><a href="">contact us 24x7</a>
+                    </div>
+                    <div class="payment_lastDiv2">
+                        <a href="#payment">Conditions of Use</a><p>|</p><a href="">Privacy Notice</a><p>© 2012-2022, Amazon.com, Inc. and its affiliates</p>
+                    </div>
+    </div>
+        
+
+
+    <div class="payment_popup">
+        <div class="payment_popup_content">
+            <div class="popup_top">
+                <div>
+                    Enter card details
+                    <button class="payment_close">x</button>
+                </div>
+            </div>
+           <div class="popup_midParent">
+                <div class="popup_mid">
+                    <div>
+                        <label for="">Card Number</label>
+                        <input type="text" id="cardNum" placeholder="8-digit card no.">
+                    </div>
+                    <p class="nameOncard">
+                        <label for="">Name on card</label>
+                        <input type="text" id="nameOnCard" placeholder="Name as on card">
+                    </p>
+                    <label for="">Expiry date</label>
+                    <input class="day_btn" placeholder="MM"></input> 
+                    <input class="year_btn" placeholder="YY"></input>
+                </div>
+                <div class="popup_right">
+                    <p>
+                        Amazon accepts all major credit and debit cards:
+                    </p>
+                    <div class="popup_imges">
+                        <div class="popup_image1">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="">
+                        </div>
+                        <div class="popup_image2">
+                            <img src="https://freepngimg.com/thumb/credit_card/25637-6-credit-card-visa-and-master-card-transparent-image.png" alt="">
+                        </div>
+                        <div class="popup_image3">
+                            <img src="https://img.favpng.com/16/7/2/maestro-debit-card-credit-card-mastercard-payment-card-png-favpng-adJT4jBpBcnQpkLKSnqFmpPex.jpg" alt="">
+                        </div>
+                        <div class="popup_image4">
+                            <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/08/rupay-card-1566468196.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+            <div class="popup_bottom">
+                <div class="popup_bottom_last">
+                    <div>
+                        <button class="first_btn">Cancel</button>
+                    </div>
+                    <div>               
+                        <button class="second_btn" id="submit">Enter card details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- loading popup -->
+    <div id=loading_paymenthid>
+        <img id=loading_gifhid src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="">
+    </div>
+    <!-- 
+        OTP            popup
+     -->
+     <!-- <div id="promopopuph">
+        <div id="promo">MASAI 15</div>
+        <input type="radio" 
+     </div> -->
+</body>
+</html>
+
+<script src="../scripts/payment.js"></script>

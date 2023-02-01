@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#landing-main-body{
+    padding-top: 20px;
+    background-color: #EAEDED;
+}
+/* #navbar{
+    height: 90px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: aliceblue;
+} */
+#landing-carousel-body{
+    width: 88%;
+    margin: auto;
+    cursor: pointer;
+}
+#landingbody{
+    width: 85%;
+    margin: auto;
+}
+.landingcarousel{
+    background-color: aliceblue;
+    z-index: 0;
+}
+.landing-carousel-grid{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    justify-content: space-between;
+}
+.landing-carousel-grid-div{
+    z-index: 1;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 18% 80% 20%;
+    padding: 0px 20px 25px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.landing-carousel-grid-div h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.landing-carousel-grid-grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 10px;
+}
+.landing-carousel-grid-grid>div{
+    margin: auto;
+    height: 120px;
+}
+.landing-carousel-grid-grid>div>img{
+    width: 90%;
+}
+.landing-carousel-grid-grid>img{
+    height: 270px;
+    width: 200%;
+}
+.landing-carousel-grid-grid>div>p{
+    margin-top: 5px;
+    font-size: 10px;
+}
+#landing-blockDeals{
+    margin-top: 50px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+.landing-offer-zone{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 50px 200px;
+    padding: 0px 0px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+#landing-blockDeals h3,.landing-offer-zone h3,.landing-browsing-history h2{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    cursor: pointer;
+}
+a:active, a:hover{
+    color: orange;
+}
+#landing-blockDeals a,.landing-offer-zone a,.landing-browsing-history a{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+#landing-blockDeals-grid,.landing-offer-grid{
+    padding: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(6,16%);    
+    justify-content: space-around;
+}
+#landing-blockDeals-grid>div{
+    display: grid;
+    grid-template-rows: 70% 10% 10%;
+    text-align: center;
+    font-size: 12px;
+}
+.blockdeals-img img{
+    height: 100%;
+}
+.block-offer{    
+    width: fit-content;
+    background-color: darkred;
+    padding: 5px;
+    text-align: left;
+    color: white;
+}
+#landing-blockDeals-grid >div>div:first-child{
+    padding: 8px;
+    background-color: #EAEDED;
+}
+#landing-blockDeals-grid>div, .landing-offer-grid>div{
+    height: 100%;
+}
+.landing-offer-grid img{
+    height: 100%;
+}
+#landing-login-grid-butt {
+    background-color: #FFD814;
+    margin: 15px 5px;
+    width: 170px;
+    text-align: center;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 12px;
+}
+#landing-login-grid-butt a{
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   
+}
+.landing-browsing-history{
+    margin: 25px 0px -5px;
+    /* padding-top: 2px; */
+    height: 160px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+.landing-browsing-history > div:nth-child(2){
+    height: 130px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    justify-content: space-between;
+}
+.landing-browsing-history > div>div{
+    padding: auto;
+    margin: auto;
+}
+#landing-footer-login-div{
+    margin-top: 35px;
+    height: 100%;
+    text-align: center;
+}
+#landing-footer-login-div> button{
+    width: 200px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #FFD814;
+    border: 1px solid orange;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#landing-footer-login-div button a{
+   text-decoration: none;
+   color: black;
+   padding-right: 10px;
+   font-size: 16px;
+}
+.landing-noemi{
+    margin-top: 50px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.landing-noemi img{
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+}
+.landing-noemi img:hover{
+    transform: scale(1.005);
+}
+
+
+
+
+
+#landing-footer{
+    border: 1px dashed black;
+    background-color: #EAEDED;
+    /* height: 200px; */
+}

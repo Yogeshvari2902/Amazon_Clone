@@ -1,0 +1,706 @@
+#main{
+    background-color: F0C148;
+}
+.payment_container{
+    margin-top: 20px;
+    margin-left: 175px;
+    margin-bottom: 24px;
+}
+.payment_heading{
+    margin-top: 30px;
+    margin-left: 175px;
+    color: #333333;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_summery{
+    width: 75%;
+    height: 70px;
+    margin-left: 175px;
+    margin-top: 20px;
+    border: 0.5px solid #3c95bf;
+   border-radius: 3px;
+    display: flex;
+}
+.payment_massage{
+    font-size: 13px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 18px 14px 60px;
+    background-color: #FAFAFA;
+}
+.payment_massage > div img{
+    width: 25px;
+    height: 25px;
+    margin-left: -40px;
+}
+.payment_massage > span{
+    width: 100%;
+    margin-top: 5px;
+}
+.payment_massage > span a{
+    text-decoration: none;
+    color: #007EB9;
+}
+.payment_massage a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.payment_mainContainer{
+    width: 56%;
+    height: 470px;
+    margin-left: 175px;
+    margin-top: 20px;
+    border: 0.5px solid gainsboro;
+    border-radius: 3px;
+}
+.payment_div{
+    width: 96%;
+    height: 450px;
+    /* background-color: aquamarine; */
+    margin: 17px 17px 17px 17px;
+}
+.payment_heading2{
+    color: #333333;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_line{
+    margin-top: 20px;
+    height: 0.2px;
+    width: 100%;
+    background-color: rgb(172,172,172);
+}
+.paymentcard_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+.paymentcard_heading{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paymentcard_detail{
+    margin-top:  14px;
+    color: #888888;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paymentcard_detail > a{
+    text-decoration: none;
+    color: #007EB9;
+    font-size: 13px;
+    margin-left:3px;
+}
+.paymentcard_detail a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.paymentcard_images{
+    display: flex;
+    
+}
+.image_One{
+    margin-top: 14px;
+    border: 1px solid  gainsboro;
+    height: 23px;
+    width: 40px;
+}
+.image_One > img{
+    width: 35px;
+    height: 10px;
+    padding-top: 6px;
+}
+.image_two{
+    margin-top: 14px;
+    margin-left: 6px;
+}
+.image_two > img{
+    width: 42px;
+    height: 24px;
+}
+.image_three{
+    height: 23px;
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 6px;
+    border: 1px solid  gainsboro;
+}
+.image_three > img{
+    width: 40px;
+    height: 22px;
+}
+.image_four{
+    height: 23px;
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+.image_four > img{
+    width: 40px;
+    height: 26px;
+}
+.paymentcard_images2{
+    /* background-color: #007EB9; */
+    display: flex;
+    margin-top: 10px;
+}
+.image1 > img{
+    width: 20px;
+    height: 20px;
+}
+.image2 > img{
+    width: 32px;
+    height: 20px;
+    margin-left: 10px;
+}
+.payment_detailDiv{
+    margin-left: 20px;
+}
+.payment_detailDiv > a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #007EB9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_detailDiv a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.payment_detailDiv2{
+    color: #AAAAAA;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    margin-top: 15px;
+}
+.hello{
+    margin-top: 20px;
+}
+.paymentcard_div2{
+    margin-top: -40px;
+    margin-left: 35px;
+}
+.paymentcard_heading2{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hii{
+    background-color:#FAFAFA;
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 170px;
+    height: 32px;
+    padding: 0px 24px 0px 11px;
+    font-size: 13px;
+    color: #111111;
+    border-radius: 5px;
+}
+.paymentcard_div3{
+    margin-top: -40px;
+    margin-left: 35px;
+}
+.paymentcard_heading3{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input_gape{
+    margin-top: 10px;
+    color: #333333;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.input_gape2{
+    margin-top: 8px;
+    padding: 3px 7px;
+    height: 18px;
+    background-color: #FFFFFF;
+    border: 1px solid #888888;
+    border-radius: 2px;
+}
+button{
+    height: 25px;
+    padding: 0px 10px 0px 11px;
+    margin-left: 10px;
+    width: 70px;
+}
+.paymentcard_div4{
+    margin-top: -40px;
+    margin-left: 35px;
+}
+.paymentcard_heading4{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payon_summery{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payon_summery > a{
+    text-decoration: none;
+    color: #007EB9;
+    font-size: 13px;
+    margin-left:3px;
+}
+.payon_summery a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.payment_option{
+    color: #333333;
+    font-size: 21px;
+    padding: 0px 0px 4px;
+    margin-top: 20px;
+    margin-left: 175px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_line2{
+    margin-left: 175px;
+    margin-top: 20px;
+    height: 0.2px;
+    width: 56%;
+    background-color: rgb(172,172,172);
+}
+.property_onlyflex{
+    display:flex;
+
+}
+.property_flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.payment_giftcards{
+    color: #333333;
+    margin-left: 175px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_voucher{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 175px;
+}
+.payment_voucher > a{
+    color: #007EB9;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_voucher a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#masaih
+{
+    visibility: hidden;
+}
+#masai
+{
+    visibility: visible;
+    width: 88px;
+    padding: 4px 0;
+}
+.payment_lastImg{
+    margin-top: 15px;
+    margin-left: 375px;
+}
+.payment_lastDiv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.payment_lastDiv > p{
+    color: #333333;
+    font-size: 12px;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_lastDiv > div{
+    color: #111111;
+}
+.payment_lastDiv > a{
+    text-decoration: none;
+    color: #007EB9;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_lastDiv a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.payment_lastDiv2{
+    display: flex;
+    margin-top: -15px;
+    justify-content: center;
+}
+.payment_lastDiv2 > p{
+    color: #333333;
+    font-size: 12px;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_lastDiv2 > a{
+    text-decoration: none;
+    color: #007EB9;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment_lastDiv2 a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.payment_parentContainer{
+    display: flex;
+}
+.continue_ButtonDiv{
+    height: 115px;
+    width: 260px;
+    margin-left: 25px;
+    margin-top: 20px;
+    /* border: 1px solid #888888; */
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 19px;
+    border: 1px #ddd solid;
+    background-color: #f7f7f7!important;
+}
+.continue_ButtonDiv > div button{
+    width: 205px;
+    height: 30px;    
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-right: 18px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F0C148;
+    border: 1px #F0C148 solid;
+}
+.continue_ButtonDiv2 > div{
+    width: 210px;
+    color: #333333;
+    margin-top: 14px;
+    margin-left: 18px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastBottomDiv{
+    display: flex;
+}
+.continue_ButtonDivSecond{
+    height: 115px;
+    width: 260px;
+    margin-left: 25px;
+    margin-top: 35px;
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 19px;
+    border: 1px #ddd solid;
+    background-color: #f7f7f7!important;
+}
+.continue_ButtonDivSecond > div button{
+    width: 210px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-right: 18px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F0C148;
+    border: 1px #F0C148 solid;
+}
+.payment_popup{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 950px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.payment_popup_content{
+    height: 261px;
+    width: 718px;
+    margin-top: -180px;
+    background-color: #FFFFFF;
+}
+.popup_top{
+    height: 45px;
+    color: #0F1111;
+    font-size: 16px;
+    padding-left: 16px;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: #F0F2F2;
+    border-bottom: 0.5px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup_top > div{
+    margin: 0px 28px 0px 0px;
+    padding: 16px 0px;
+}
+.popup_mid > div{
+    /* background-color: orange; */
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    /* width: 50%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup_mid > div input{
+    margin-left: 15px;
+    height: 23px;
+}
+.popup_mid > div button{
+    margin-left: 10px;
+}
+.popup_mid > label{
+    padding-left: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    /* background-color: #3c95bf; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup_mid > input{
+    width: 45px;
+    height: 15px;
+    padding-left:8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+}
+.nameOncard{
+    padding-left: 45px;
+    font-size: 14px;
+    /* margin-top: 10px; */
+    font-weight: bold;
+    /* width: 50%; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+}
+.nameOncard > input{
+    margin-top: -2px;
+    margin-left: 15px;
+    height: 23px;
+}
+.popup_bottom{
+    height: 45px;
+    color: #0F1111;
+    font-size: 16px;
+    padding-left: 16px;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: #F0F2F2;
+    border-top: 0.5px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.popup_midParent{
+    display:flex;
+}
+.popup_right{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 90px;
+    /* margin-bottom: -25px; */
+    /* background-color: #F0C148; */
+}
+.popup_right > p{
+    font-size: 14px;
+    color: #0F1111;
+    margin: 0px 0px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup_imges{
+    display: flex;
+}
+.popup_image1{
+    margin-top: 10px;
+    /* margin-top: 14px; */
+    border: 1px solid  gainsboro;
+    height: 23px;
+    width: 40px;
+}
+.popup_image1 > img{
+    width: 32px;
+    height: 13px;
+    margin-top: 5px;
+    margin-left: 2px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.popup_image2{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.popup_image2 > img{
+    width: 42px;
+    height: 24px;
+}
+.popup_image3{
+    height: 23px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 6px;
+    border: 1px solid  gainsboro;
+}
+.popup_image3 > img{
+    width: 40px;
+    height: 22px;
+}
+
+.popup_image4{
+    height: 23px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.popup_image4 > img{
+    width: 40px;
+    height: 30px;
+}
+.popup_bottom_last{
+    /* float: inline-end; */
+    float: right;
+    display: flex;
+    /* background-color: #007EB9;
+    padding-top: -40px; */
+}
+.first_btn{
+    color: #0F1111;
+    background-color: #FFFFFF;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: -70px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 0px 11px;
+    height: 30px;
+}
+.second_btn{
+    color: #0F1111;
+    width:auto;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 7px;
+    padding: 1px 6px;
+    /* margin: 0px 0px 0px 5.39px; */
+    border-radius: 8px;
+    border: 1px solid #FFD814;
+    background-color: #FFD814;
+    /* padding-top: 30px; */
+}
+.popup_top > div button{
+    float:right;
+    margin-right: -20px;
+    width: 40px;
+    height: 38px;
+    margin-top: -10px;
+    font-size: 16px;
+    border: none;
+    color: #0F1111;
+}
+
+.day_btn{
+    /* margin-left: 0px; */
+    /* padding-left: 20px; */
+    background-color:#F0F2F2;
+    border-radius: 5px;
+
+}
+.year_btn{
+    /* margin-left: -20px; */
+    background-color:#F0F2F2;
+    border-radius: 5px;
+}
+.popup_mid > div button{
+    margin-left: 20px;
+}
+#selectOption1{
+    accent-color:#007EB9;
+}
+#selectOption2{
+    accent-color:#007EB9;
+}
+#selectOption3{
+    accent-color:#007EB9;
+}
+#selectOption4{
+    accent-color:#007EB9;
+}
+/* #enterCardDetailhidden
+{
+    visibility: hidden;
+} */
+
+
+
+/*                                                loading                                                      */
+
+#loading_payment
+{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1000;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 61vmax;
+}
+
+#loading_gif
+{
+    width:100px;
+    height:100px;
+}
+#loading_gifhid
+{
+    top:0;
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+}

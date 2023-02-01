@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <style>
+        #container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 700px;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+        }
+        #logo img
+        {
+            /* margin: -15px; */
+             width: 150px;
+             padding-right: 60px;
+             
+        }
+        #form{
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 450px;
+        }
+        #create{
+
+            font-size: 28px;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+        input
+        {
+            border: 1px solid grey;
+            padding: 15px;
+            border-radius: 3px;
+
+        }
+        input:hover
+        {
+            border: 2px solid rgb(216, 162, 0);
+        }
+        .input
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 400px;
+        }
+        .head
+        {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        p
+        {
+            margin-top: -1px;
+            font-size: 14px;
+            color: gray;
+        }
+        #i
+        {
+            color: rgb(0, 153, 255);
+            font-weight: 600;
+            font-size: 15px;
+        }
+        #number,#name,#email,#country,#pwd
+        {
+            padding: 5px 0px;
+        }
+        #note{
+            width: 300px;
+            text-align: justify;
+            font-size: 13px;
+            color: rgb(49, 47, 47);
+        }
+        #signup
+        {
+            background-color: rgb(221, 190, 19);
+            border: 1px solid gray;
+            border-radius: 3px;
+            width: 300px;
+            padding: 6px ;
+            font-size: 14px;
+            font-weight: 200;
+        }
+        #signup:hover
+        {
+            background-color: rgb(230, 187, 28);
+ 
+        }
+        #signin
+        {
+            font-size: 15px;
+            color: rgb(49, 47, 47);
+            padding-right: 20px;
+        }
+        #foot
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+            margin-right: 50px;
+            font-size: 12px;
+            
+        }
+        #links
+        {
+            display: flex;
+            width: 300px;
+            justify-content: space-between;
+        }
+        #fooot
+        {
+            color: rgb(77, 76, 76);
+
+        }
+        a{
+            color: rgb(10, 116, 229);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        .req
+        {
+            border: 3px solid red;
+        }
+        #popotp
+        {
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            height:800px ;
+            position: absolute;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.688);
+            align-items: center;
+            padding-top: 200px;
+        }
+
+        #popotp>div
+        {
+            display: flex;
+            width:250px;
+            height: 200px;
+            background-color: whitesmoke;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 12px;
+
+        }
+        #otpdiv
+        {
+            margin: 20px;
+            background-color: rgba(216, 162, 0);
+            padding: 10px 40px;
+        }
+        #otp{
+            height: 10px;
+            width: 140px;
+        }
+        #otpe
+        {
+            padding: 5px 15px;
+            background-color: rgb(221, 190, 19);
+            border: 1px solid  rgba(216, 162, 0);
+        }
+        #otpeh,#otph,#otpdivh,#popotph 
+        {
+            visibility: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="logo"> <img src="data:image/png;base64,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" alt="logo"></div>
+        
+        
+        <div id="form">
+
+            <div id="create">Create Account</div>
+
+            <div class="input">
+                <div class="head">Your name</div>
+                <div class="data"><input type="text" id="name" placeholder="First and last name" size="41"></div>
+
+            </div>
+            <div class="input">
+                <div class="head">Mobile number</div>
+                <div class="data">
+                    <select name="country" id="country" style="width: 52px;">
+                        <option value="+93">+93  Afganistan</option>
+                        <option value="+1">+1  Amrican Samoa</option>
+                        <option value="+880">+880 Bagladesh</option>
+                        <option value="+591">+591 Bolivia</option>
+                        <option value="+55">+55  Brazil</option>
+                        <option value="+1">+1   Canada</option>
+                        <option value="+86">+86   China</option>
+                        <option value="+53">+53   Cuba</option>
+                        <option value="+45">+45   Denmark</option>
+                        <option value="+20">+20   Egypt</option>
+                        <option value="+358">+358   Finland</option>
+                        <option value="+33">+33   France</option>
+                        <option value="+995">+995   Georgia</option>
+                        <option value="+49">+49   Germany</option>
+                        <option value="+30">+30   Greece</option>
+                        <option value="+299">+299  Greenland</option>
+                        <option value="+852">+852  HongKong</option>
+                        <option value="+36">+36   Hungry</option>
+                        <option value="+354">+354  Iceland</option>
+                        <option value="+91" selected>+91   India</option>
+                        <option value="+62">+62   Indonesia</option>
+                        <option value="+98">+98   Iran</option>
+                        <option value="+39">+39   Itily</option>
+                        <option value="+1">+1    Jamaica</option>
+                        <option value="+81">+81   Japan</option>
+                        <option value="+962">+962  Jordon</option>
+                        <option value="+254">+254  Kenya</option>
+                        <option value="+231">+231  Leberia</option>
+                        <option value="+261">+261  Madagaskar</option>
+                        <option value="+52">+52   Mexico</option>
+                        <option value="+976">+976  Mongolia </option>
+                        <option value="+95">+95   Myanmar</option>
+                        <option value="+977">+977 Nepal</option>
+                        <option value="+64">+64   Newzeland </option>
+                        <option value="+92">+92   Pakistan</option>
+                        <option value="+51">+51   Peru</option>
+                        <option value="+48">+48   Poland</option>
+                        <option value="+7">+7   Russia</option>
+                        <option value="+27">+27   South Africa</option>
+                        <option value="+34">+34   Spain</option>
+                        <option value="+94">+94   Srilanka</option>
+                        <option value="+1">+1    St.lucia</option>
+                        <option value="+41">+41  Switzerland</option>
+                        <option value="+886">+886  Taiwan</option>
+                        <option value="+90">+90   Turkey</option>
+                        <option value="+44">+44   United Kingdom</option>
+                        <option value="+1">+1    United States</option>
+                        <option value="+84">+84    Vietnam</option>
+                        <option value="+967">+967   Yeman</option>
+                        <option value="+263">+263  Zimbabae</option>
+                    </select>
+                    <input type="text" id="number" placeholder="Mobile number" size="32">
+                </div>
+
+            </div>
+            <div class="input">
+                <div class="head">Email (optional)</div>
+                <div class="data"><input type="email" id="email" size="41"></div>
+
+            </div>
+            <div class="input">
+                <div class="head">Password</div>
+                <div class="data"><input type="password" id="pwd"  placeholder="At least 6 characters " size="41"></div>
+                <p> <span id="i">i</span> Passwords must be at least 6 characters.</p>
+            </div>
+            <div id="note">
+                By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Amazon. Message and data rates may apply.
+            </div>
+            <button id="signup">
+                Continue
+            </button>
+        </div>
+
+
+        <div id="signin">Already have an account? <a href="./login.html">Sign in</a></div>
+
+
+        <div id="foot">
+            <div id="links">
+                <a href=""> Conditions of Use </a>
+                <a href=""> Privacy Notice </a>
+                <a href=""> Help </a>
+
+            </div>
+
+            <div id="fooot">© 1996-2022, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </div>
+    <!-- <div id="popotph">
+        <div>
+        <div id="otpdivh">Enter otp:</div>
+        <input id="otph" type="text" placeholder="4-digit otp">
+        <button id="otpeh">submit</button>
+        </div>
+    </div> -->
+</body>
+</html>
+<script>
+    let userdata=JSON.parse(localStorage.getItem("userdata")) || [];
+    document.getElementById("signup").addEventListener("click",signupUser)
+function signupUser(){
+
+
+    let   name = document.getElementById("name").value;
+    let   email = document.getElementById("email").value;
+    let   password = document.getElementById("pwd").value;
+    let   num = document.getElementById("number").value;
+    let   ccode = document.getElementById("country").value;
+
+    if(num.length!=10 || password.length<6 || name.length<2 )
+    {
+
+        
+        if(num.length!=10 )
+        {
+            document.getElementById("number").setAttribute("class","req");
+        }
+        else
+        {
+            document.getElementById("number").setAttribute("class","");
+        }
+        if(name.length<2)
+        {
+            document.getElementById("name").setAttribute("class","req");
+        }
+        else
+        {
+            document.getElementById("name").setAttribute("class","");
+        }
+        if(password.length<6)
+        {
+            document.getElementById("pwd").setAttribute("class","req");
+        }
+        else
+        {
+            document.getElementById("pwd").setAttribute("class","");
+        }
+    }
+
+    else
+    {
+        document.getElementById("pwd").setAttribute("class","");
+        document.getElementById("number").setAttribute("class","");
+        document.getElementById("name").setAttribute("class","");
+
+        let obj={
+            id : num,
+            name : name,
+            number : num,
+            email : email,
+            password : password,
+            
+        };
+        
+        getUser(obj);
+        
+        
+    }
+}
+async function getUser(obj)
+    { 
+        // let rflag=false;
+
+        try{
+           let res= await fetch(`http://localhost:3000/userdata?id=${obj.id}`);
+           let data= await res.json();
+            if(data.length==0)
+            {
+                // let otp=Math.ceil(Math.random()*10000);
+                // window.alert(`Amazon Registration\n OTP: ${otp}`);
+
+                saveUser(obj);
+            }
+            else
+                window.alert("User already exist!");
+                window.location.href="./login.html"
+        
+        }
+        catch (err)
+        {
+            window.alert("Unable to access server!");
+        }
+    }
+    
+    
+    async function saveUser(obj)
+    {
+        try
+        {
+            await fetch('http://localhost:3000/userdata', { method: "POST",headers: {'Content-type': 'application/json'}, 
+            body : JSON.stringify(obj)});
+            window.alert("Registration Successful");
+            gotologin();
+        }
+        catch(error)
+        {
+            window.alert("Unexpected Error occur please Retry!");
+        }
+    }
+    function gotologin()
+    {
+        window.location.href="login.html";
+    }
+        
+
+    // function popotp(o){
+
+    //     document.getElementById("popotph").setAttribute("id","popotp")
+    //     document.getElementById("otph").setAttribute("id","otp")
+    //     document.getElementById("popotdivh").setAttribute("id","popotpdiv")
+    //     document.getElementById("otpeh").setAttribute("id","otpe")
+    
+    //     document.getElementById("otpe").addEventListener("click",function ()
+    //     {
+    //         if(o==document.getElementById("otp").value)
+    //         {
+    //             return true;
+    //         }
+    //         return false;
+    //     })
+        
+        
+    
+
+</script>

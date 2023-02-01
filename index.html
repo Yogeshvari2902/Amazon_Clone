@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in</title>
+    <link rel="stylesheet" href="./style/index.css"> 
+    <link rel="stylesheet" href="./style/navbar.css">  
+    <link rel="stylesheet" href="./style/footer.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script type="module" src="./scripts/index.js"></script>
+  <script src="https://kit.fontawesome.com/d822390a31.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="nav">
+        <nav>
+            <div id="completeNavbar">
+            <div id="navbar">
+                <div id="logo">
+                    <a href="./index.html">
+                    <img src="https://www.scottandirmamusic.com/buttons/button.amazon.png" alt="logo">
+                </a>
+                </div>
+                <div id="address">
+                    <div class="location"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                    <div class="locationText">
+                        <p>Hello</p>
+                        <h4>Select your address</h4>
+                    </div>
+                </div>
+                <div id="searchbar">
+                    <select>
+                        <a href=""><option value="default">All</option></a>
+                        <a href=""><option>Alexa Skills</option></a>
+                        <a href=""><option>Amazon Devices</option></a>
+                        <a href="./pages/fashion.html"><option>Amazon Fashion</option></a>
+                        <a href=""><option>Amazon Fresh</option></a>
+                        <a href=""><option>Amazon Pharmacy</option></a>
+                        <a href=""><option>Appliances</option></a>
+                        <a href=""><option>App & Games</option></a>
+                        <a href=""><option>Baby</option></a>
+                        <a href="./pages/women.html"><option>Beauty</option></a>
+                        <a href=""><option>Books</option></a>
+                        <a href=""><option>Car & Motorbike</option></a>
+                        <a href="./pages/fashion.html"><option>Clothing & Accessories</option></a>
+                        <a href=""><option>Computer & Accessories</option></a>
+                        <a href=""><option>Deals</option></a>
+                        <a href=""><option>Electronics</option></a>
+                        <a href=""><option>Furniture</option></a>
+                        <a href=""><option>Garden & Outdoors</option></a>
+                        <a href=""><option>Grocery & Personal Care</option></a>
+                        <a href=""><option>Home & Kitchen</option></a>
+                        <a href=""><option>Jewellery</option></a>
+                        <a href=""><option>Luggages & Bags</option></a>
+                        <a href=""><option>Luxury Beauty</option></a>
+                        <a href=""><option> Movies & Tv Shows</option></a>
+                        <a href=""><option>Music</option></a>
+                        <a href=""><option>Office Products</option></a>
+                        <a href=""><option>Prime Video</option></a>
+                        <a href=""><option>Shoes & HandBag</option></a>
+                        <a href=""><option>Software</option></a>
+                        <a href=""><option>Toys & Games</option></a>
+                        <a href=""><option>Suscribe & Save</option></a>
+                        <a href=""><option>Toys & Games</option></a>
+                        <a href=""><option>Watches</option></a>
+                    </select>
+                    <input id="search" type="search">
+                    <button type="submit" id="handleSubmit" ><img src="https://www.1stopdesign.com/wp-content/uploads/2015/06/Search-Logos.png"></button>
+                </div>
+                <div id="rest">
+                    <div class="language">
+                        <img src = "https://th.bing.com/th/id/R.38750413a87e39bf24401b22da5f07b8?rik=49PKK6jTDyjYDQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f_vSFcTZyvWMU%2fTT3rdd7UdZI%2fAAAAAAAAAZg%2febAKONpvGfw%2fs1600%2fIndia_flag.gif&ehk=mhw1keL6tZhThug47Ae%2bKcfCWuHHeNQk8ttjbQ3%2fU8A%3d&risl=&pid=ImgRaw&r=0" alt = image>
+                        <select>
+                            <option value="default"></option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <option>Marathi</option>
+                            <option>Telugu</option>
+                            <option>Malyalam</option>
+                            <option>Tamil</option>
+                        </select>
+                    </div>
+                    <a id="signInuser" href="./pages/login.html">
+                    <div id="signIn">
+                        <p>Hello, sign in</p>
+                        <h4>Account & Lists</h4>
+                    </div></a>
+                    <a href="">
+                    <div class="order">
+                        <p>Returns</p>
+                        <h4>& Orders</h4>
+                    </div></a>
+                    <a href="./pages/cart.html">
+                    <div id="cart">
+                        <img src ="https://lynaperez.vip/wp-content/uploads/2020/09/shop2_bl.png">
+                        <h5>Cart</h5>
+                    </div></a>
+                </div>
+            </div>
+    
+            <div id="miniNavbar">
+                <div id="leftSide">
+                    <span href=""><p id="openSidebar"><i class="fa-solid fa-bars"></i> All</p></span>
+                    <a href=""><p>Sell</p></a>
+                    <a href=""><p>Fresh</p></a>
+                    <a href=""><p>Amazon Pay</p></a>
+                    <a href=""><p>Today's Deals</p></a>
+                    <a href="./pages/fashion.html"><p>Fashion</p></a>
+                    <a href=""><p>Best Sellers</p></a>
+                    <a href=""><p>Prime</p></a>
+                    <a href=""><p>Buy Again</p></a>
+                    <a href=""><p>Customer Service</p></a>
+                </div>
+                <div id="rightSide">
+                    <a href="">
+                    <img src="https://sallythebarkingduck.com/img/amazon_icon_logo.png" alt="logo">
+                    <p>Shopping made Easy | Download the app</p></a>
+                </div>
+            </div>
+            <div id="sideBar">
+                
+                <a href="./pages/login.html">
+                <div id="heading">
+                    <img src="https://www.pngkey.com/png/full/202-2024792_profile-icon-png.png">
+                    <p id="user2">Hello, sign in</p>
+                    <button id="crossBtn">
+                        <img src="https://www.tellingstories.co.uk/new-site/ts-content/uploads/2020/04/T_ImageRights.jpg">
+                    </button>
+                </div></a>
+                <div id="content">
+                    <ul>Digital Content & Devices</ul>
+                        <li><a href="">Amazon Music</a></li>
+                        <li><a href="">Kindle E-readers & Books</a></li>
+                        <li><a href="">Amazon Appstore</a></li>
+                        <hr>
+                    <ul>Shop By Department</ul>
+                        <li><a href="">Electronics</a></li>
+                        <li><a href="">Computers</a></li>
+                        <li><a href="">Smart Home</a></li>
+                        <li><a href="">Arts & Crafts</a></li>
+                        <hr>
+                    <ul>Programs & Features</ul>
+                        <li><a href="">Gifts Cards</a></li>
+                        <li>#FoundItOnAmazon</li>
+                        <li><a href="">Amazon Live</a></li>
+                        <li><a href="">International Shopping</a></li>
+                        <hr>
+                    <ul>Help & Settings</ul>
+                        <li>Your Account</li>
+                        <li>English</li>
+                        <li>United States</li>
+                        <li>Customer Service</li>
+                        <li><a id="sbsignIn" href="./pages/login.html">Sign in</a></li>
+                        <br><br>
+                        <br><br>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </section>
+
+    <div id="landing-main-body">
+        <!-- <div id="navbar"></div> -->
+        <div id="landing-carousel-body">
+            <div id="landingcarousel">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="./images/img1.jpg" alt="">
+                      </div>              
+                      <div class="item">
+                        <img src="./images/im2.jpg" alt="">
+                      </div>              
+                      <div class="item">
+                        <img src="./images/img3.jpg" alt="">
+                      </div>                  
+                      <div class="item">
+                        <img src="./images/img4.jpg" alt="">
+                      </div>                  
+                    </div>
+        
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        
+            </div>
+        </div>
+        
+        <div id="landingbody">
+            <div class="landing-carousel-grid"  style="margin-top: -250px;">
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Up to 70% off | Amazon Brands & more</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/amazon_basics/ashaln/gw_btf_pc/xcm_banners_phase3-pc-qc-tile1_372x232_in-en._SY116_CB609066693_.jpg">
+                            <p>Up to 55% off | TVs, Refrigerators & more</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/amazon_basics/ashaln/gw_btf_pc/xcm_banners_phase3-pc-qc-tile2_372x232_in-en._SY116_CB609066689_.jpg">
+                            <p> Up to 60% off | Home & kitchen</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/amazon_basics/ashaln/gw_btf_pc/xcm_banners_phase3-pc-qc-tile3-76vp1-nc8xk_372x232_in-en._SY116_CB609066695_.jpg">
+                            <p>Up to 60% off | Daily essentials</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/Phase33/186x116._SY116_CB609066723_.jpg">
+                            <p>Under ₹599 | Clothing, shoes & more</p>
+                        </div>
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Up to 20% off | Travel Tickets</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/1-Flight_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p>Get up to 20% off on flights</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/Bus_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p> Hassle-free bus booking</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/Train_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p>Zero convenience fees on train tickets</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/Phase3/Travel-accessories_2_PC_QuadCard_186X116._SY116_CB607257935_.jpg">
+                            <p>Products for your travel needs</p>
+                        </div>
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Extra happiness days</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/Phase-3/P3_PC-CC_1X._SY304_CB609049271_.jpg">
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div" id="landing-login-grid">
+                    
+                </div>
+            </div>
+            <div id="landing-blockDeals">
+                <div><h3>Blockbuster Deals<a>See all deals</a> </h2> </div>
+                <div id="landing-blockDeals-grid">
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/41Vj+8XWIQL._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Upto 37% off</div>
+                        <div><p>Samsung M13 | Starting From 8,549</p></div>
+                    </div>
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/41mDAtPMDKL._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Upto 5% off</div>
+                        <div><p>OnePlus Nord CE2 | Buy Now</p></div>
+                    </div>
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/41pAktx0R3L._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Upto 10,000 off</div>
+                        <div><p>Newly launched Fire-Boltt Dazzle </p></div>
+                    </div>
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/41qqmdUWnhL._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Upto 80% off</div>
+                        <div><p>Smartwatches from Rs.999</p></div>
+                    </div>
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/41HSkMxLEJL._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Deal of the Day</div>
+                        <div><p>Oneplus Nord CE2 5G</p></div>
+                    </div>
+                    <div>
+                        <div class="blockdeals-img"> <img src="https://m.media-amazon.com/images/I/311QJu8o9pL._AC_SY200_.jpg"></div>
+                        <div class="block-offer">Upto 11% off</div>
+                        <div><p>iPhone 13 Pro, Starting Rs. 1,05,650</p></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="landing-offer-zone">
+                <div><h3>Starting ₹59 | Festive lights<a>See all deals</a> </h2> </div>
+                <div class="landing-offer-grid">
+                    <div><img src="https://m.media-amazon.com/images/I/41Dhj9-9UxL._AC_SY200_.jpg"></div>
+                    <div><img src="https://m.media-amazon.com/images/I/61d-3JCTFwL._AC_SY200_.jpg"></div>
+                    <div><img src="https://m.media-amazon.com/images/I/61dQajQ5pJL._AC_SY200_.jpg"></div>
+                    <div><img src="https://m.media-amazon.com/images/I/510ffJ4w8EL._AC_SY200_.jpg"></div>
+                    <div><img src="https://m.media-amazon.com/images/I/71mNntyE24L._AC_SY200_.jpg"></div>
+                    <div><img src="https://m.media-amazon.com/images/I/51hQn2ywyEL._AC_SY200_.jpg"></div>
+                </div>
+            </div>
+            <div class="landing-carousel-grid" style="margin-top: 50px;">
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Coupon Carnival | Special offers for you</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/jupiter22/Phase3/PC_P3/D55798905_PC_CC_1x._SY304_CB609070400_.jpg">
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Starting ₹49 | Amazon Brands & more</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/Events/Jupiter/Ph2/Ph3/tile1_Grocery_PB_PC_P2_QuadCard_186x116._SY116_CB607275876_.jpg">
+                            <p>Starting ₹49 | Grocery & household supplies</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/Events/Jupiter/Ph2/Ph3/Tile2_baby_PB_P2_PC_QuadCard_186x116._SY116_CB607275876_.jpg">
+                            <p>Starting ₹99 | Baby & toys</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/Events/Jupiter/Ph2/Ph3/Tile3_BeautyPB_PC_P2_QuadCard_186x116._SY116_CB607275876_.jpg">
+                            <p>Starting ₹49 | Beauty & grooming</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/Events/Jupiter/Ph2/Ph3/Tile4_TopDeals_PB_PC_P2_QuadCard_186x116._SY116_CB607275879_.jpg">
+                            <p>Starting ₹49 | Top deals</p>
+                        </div>
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Extra happiness days</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/LA/Jupiter22/GW/P3/Ref-PC-CC-1x._SY304_CB609048397_.jpg">
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+                <div class="landing-carousel-grid-div">
+                    <div><h3>Up to 20% off | Travel Tickets</h2></div>
+                    <div class="landing-carousel-grid-grid">
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/1-Flight_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p>Get up to 20% off on flights</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/Bus_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p> Hassle-free bus booking</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonPay/Travel/Phase3/Train_PC_QuadCard_186x116._SY116_CB609006230_.jpg">
+                            <p>Zero convenience fees on train tickets</p>
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/Phase3/Travel-accessories_2_PC_QuadCard_186X116._SY116_CB607257935_.jpg">
+                            <p>Products for your travel needs</p>
+                        </div>
+                    </div>
+                    <div><a>See all offers</a></div>
+                </div>
+            </div>
+            <div class="landing-noemi">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/vineet/Amazon-Pay-Later/Sept_22/Jupiter_22/Headers/P3_BFL_GW-editorial_1150x323._CB609056541_.jpg">
+            </div>
+            <div class="landing-offer-zone">
+                <div><h3>Shop deals in top categories<a>Explore all categories</a> </h2> </div>
+                <div class="landing-offer-grid">
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/katariy/Events_22/Jupiter_2022/Cat_page/day_6_chnages/D57221741_WLD_Jupiter_2022_Cat_page_go_live_Creatives_DesktopShoveler_200x200._CB608583428_.jpg"></div>
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Laptops/Jupiter22/Phase2/All/gaming/DesktopShoveler_200x200._CB609097800_.jpg"></div>
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL_HMT/footercard_phase3/200x200/200._CB608760013_.jpg"></div>
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/TVs/Jup22/Kamya/MiRedmi/DesktopShoveler_200x200_English._CB608744432_.jpg"></div>
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/Gateway/Jupiter22/shoveler/desktop_SL_200x200._CB607278332_.jpg"></div>
+                    <div><img src="https://images-eu.ssl-images-amazon.com/images/G/31/Gateway/Jupiter22/shoveler/DesktopShoveler_media_200x200._CB607278332_.jpg"></div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        <div id="landing-footer">
+            <div class="landing-browsing-history">
+            </div>
+        </div>
+    </div>
+
+    <section id="footer">
+        <div class="footer_backtop">
+            <div><a href="">Back to top</a></div>
+        </div>
+    <div class="footer_detail">
+        <div>
+            <div class="footer_table">
+                <div>
+                    <div class="footer_tablehead">Get to know us</div>
+                    <ul class="footer_list">
+                        <li><a href="">About us</a> </li>
+                        <li><a href="">Career</a> </li>
+                        <li><a href="">Press Releases</a> </li>
+                        <li><a href="">Amazon Science</a> </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer_tablehead">Connect with us</div>
+                    <ul class="footer_list">
+                        <li><a href="">Facebook</a> </li>
+                        <li><a href="">Twitter</a> </li>
+                        <li><a href="">Instagram</a> </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer_tablehead">Make Money with Us</div>
+                    <ul class="footer_list">
+                        <li><a href="">Sell on Amazon</a> </li>
+                        <li><a href="">Sell under Amazon Accelerator</a> </li>
+                        <li><a href="">Amazon Global Selling</a> </li>
+                        <li><a href="">Become an Affiliate</a> </li>
+                        <li><a href="">Fulfilment by Amazon</a> </li>
+                        <li><a href="">Advertise Your Products</a> </li>
+                        <li><a href="">Amazon Pay on Merchants</a> </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer_tablehead">	Let Us Help You</div>
+                    <ul class="footer_list">
+                        <li><a href="">COVID-19 and Amazon</a> </li>
+                        <li><a href="">Your Account</a> </li>
+                        <li><a href="">Returns Centre</a> </li>
+                        <li><a href="">100% Purchase Protection</a> </li>
+                        <li><a href="">Amazon App Download</a> </li>
+                        <li><a href="">Amazon Assistant Download</a> </li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="footer_line">
+            </div>
+            <div class="footer_icon">
+                <div class="footer_logo">
+                    <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" alt="">
+                </div>
+                <div class="footer_lang">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdynUcDVgRZ6-LYr25Fl-8r5cJuU9yYZl3yw&usqp=CAU" alt="">
+                    <div>English</div>
+                </div>
+            </div>
+            <div class="footer_country">
+                <div class="footer_country_sub">
+                    <div><a href="">Australia</a></div>
+                    <div><a href="">Brazil</a></div>
+                    <div><a href="">Canada</a></div>
+                    <div><a href="">China</a></div>
+                    <div><a href="">France</a></div>
+                    <div><a href="">Germany</a></div>
+                    <div><a href="">Italy</a></div>
+                    <div><a href="">Japan</a></div>
+                    <div><a href="">Mexico</a></div>
+                    <div><a href="">Netherlands</a></div>
+                    <div><a href="">Poland</a></div>
+                    <div><a href="">Singapore</a></div>
+                    <div><a href="">Spain</a></div>
+                    <div><a href="">Turkey</a></div>
+                    <div> <a href="">United Arab Emirates</a></div>  
+                </div>
+                <div class="footer_country_sub2">
+                    <div><a href="">United Kingdom</a></div>
+                    <div><a href="">United States</a></div>
+                </div>
+            </div>      
+    </div>
+    <div class="footer_bottom">
+        <div class="footer_bottom_div1">
+            <div>
+                    <div class="bottom_sub_div1"><a href="">AbeBooks</a> </div>
+                    <div class="bottom_sub_div2"><a href="">Books, art</a> </div>
+                    <div class="bottom_sub_div2"><a href="">& collectibles</a> </div>
+            </div>
+            <div>
+                    <div  class="bottom_sub_div1"><a href="">Amazon Web Services</a> </div>
+                    <div  class="bottom_sub_div2"><a href="">Scalable Cloud </a> </div>
+                    <div  class="bottom_sub_div2"><a href="">Computing Services</a> </div>
+            </div>
+            <div>
+                    <div  class="bottom_sub_div1"><a href=""> Audible</a> </div>
+                    <div  class="bottom_sub_div2"><a href="">Download</a> </div>
+                    <div  class="bottom_sub_div2"><a href=""> Audio Books</a> </div>
+            </div>   
+            <div>
+                    <div  class="bottom_sub_div1"><a href="">DPReview</a> </div>
+                    <div class="bottom_sub_div2"><a href="">Digital</a> </div>
+                    <div class="bottom_sub_div2"><a href="">Photography</a> </div>
+            </div>
+            <div>
+                    <div class="bottom_sub_div1"><a href="">IMDb</a> </div>
+                    <div class="bottom_sub_div2"><a href="">Movies, TV</a> </div>
+                    <div class="bottom_sub_div2"><a href="">& Celebrities-</a> </div>
+            </div>
+        </div>
+        <div class="footer_bottom_div2">
+            <div>
+                <div class="bottom_sub_div1"><a href="">Shopbop</a></div>
+                <div class="bottom_sub_div2"><a href="">Designer</a> </div>
+                <div class="bottom_sub_div2"><a href="">Fashion Brands</a> </div>
+            </div>
+            <div>
+                <div class="bottom_sub_div1"><a href="">Amazon Business</a></div>
+                <div class="bottom_sub_div2"><a href="">Everything For</a> </div>
+                <div class="bottom_sub_div2"><a href="">Your Business</a> </div>
+            </div>
+            <div>
+                <div class="bottom_sub_div1"><a href="">Prime Now</a></div>
+                <div class="bottom_sub_div2"><a href="">2-Hour Delivery</a> </div>
+                <div class="bottom_sub_div2"><a href="">on Everyday Items</a> </div>
+            </div>
+            <div>
+                <div class="bottom_sub_div1"><a href="">Amazon Prime Music</a></div>
+                <div class="bottom_sub_div2"><a href="">90 million songs, ad-free</a> </div>
+                <div class="bottom_sub_div2"><a href="">Over 15 million podcast episodes</a> </div>
+            </div>
+            <div>
+                <div class="bottom_sub_div1"><a href=""></a></div>
+                <div class="bottom_sub_div2"><a href=""></a> </div>
+                <div class="bottom_sub_div2"><a href=""></a> </div>
+            </div>
+        </div>
+        <div class="footer_bottom_div3">
+            <div class="footer_last"> 
+                <div class="bottom_sub_div3"><a href="">Conditions of Use & Sale</a></div>
+                <div class="bottom_sub_div3"><a href="">Privacy Notice</a> </div>
+                <div class="bottom_sub_div3"><a href="">Interest-Based Ads</a> </div>
+            </div>
+            <div class="footer_last2">
+                © 1996-2022, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
+<script src="./scripts/index.js" type="module"></script>

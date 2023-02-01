@@ -1,0 +1,25 @@
+#navbar2{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items:center;
+    border-bottom: 1px solid #e7e7e7;
+    justify-content: space-around;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+}
+#navbar2>div{
+    margin-left: 20px;
+}
+#navbar2>div>p:hover{
+    cursor: pointer;
+    margin-bottom: 3px;
+    border-bottom: 2px solid darkorange;
+    
+}
+#navbar2>a>img{
+    width: 250px;
+}
+img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#procart
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 30px;
+        }
+        #uppercart
+        {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+       
+        #cartside
+        {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            min-width:300px;
+            align-items: center;
+        }
+
+        #buy
+        {
+            font-size: 14px;
+            color: rgb(44, 44, 44);
+            width: 250px;
+            padding: 5px 2px;
+            background-color: rgb(221, 190, 19);
+            border: none;
+            border-radius: 12px;
+        }
+        #buy:hover
+        {
+            background-color: rgb(230, 187, 28);
+        }
+        #freitems
+        {
+
+            display: flex;
+            flex-direction: column;
+        }
+        .freitem
+        {
+            padding: 7px 2px;
+            width: 290px;
+            display: flex;
+        }
+        .fimg
+        {
+            width:100px;
+            height:80px;
+            padding: 10px;
+        }
+        .fdata
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100px;
+        }
+        .fdata .fname
+        {
+            font-size: 16px;
+            color: rgb(0, 115, 255);
+        }
+        .fdata .fname:hover
+        {
+            text-decoration: underline;
+            color:red;
+        }
+        .fdata a{
+            text-decoration: none;
+            margin-top: -6px;
+            color: rgb(47, 47, 47);
+            font-size: 12px;
+            border: 1px solid lightgrey;
+            background-color: lightgray;
+        }
+        .frating span
+        {
+            color: rgb(165, 163, 158);
+        }
+        .frating .checked
+        {
+            color: orange;
+        }
+        .fprice
+        {
+            color: firebrick;
+        }
+        .recomended
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .rechead
+        {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 30px;
+        }
+
+        
+
+#recitems
+{
+    display: flex;
+    width: 100;
+    /* overflow-x: scroll; */
+}
+#releitems
+{
+    display: flex;
+    width: 100;
+    overflow-x: scroll;
+}
+#recitems>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width:230px;
+    height: 400px;
+    margin: 16px 10px;
+    border: 0.2px solid darkgray;
+    border-radius: 5px;
+ 
+     
+ }
+ #releitems>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width:230px;
+    height: 400px;
+    margin: 16px 10px;
+    border: 0.2px solid darkgray;
+    border-radius: 5px;
+ 
+     
+ }
+ #recitems>div:hover{
+    cursor: default;
+}
+#releitems>div:hover{
+    cursor: default;
+}
+    
+
+.imgdiv
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 260px;
+    width:220px;
+    overflow: hidden;
+}
+#recitems h2
+{
+    margin: 2px;
+    font-size: 16px;
+    margin: 2px;
+}
+#releitems h2
+{
+    margin: 2px;
+    font-size: 16px;
+    margin: 2px;
+}
+#recitems h3
+{
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin: 2px;
+}
+#releitems h3
+{
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin: 2px;
+}
+#recitems h3:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+#releitems h3:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+.rating
+{   padding-left: 10px;
+    display: flex;
+    width:230px;
+    height: 30px;
+    align-items: baseline;
+    justify-content: center;
+}
+.rating .checked
+{
+    color: orange;
+}
+ .fa-star
+{
+    color: rgb(173, 173, 173);
+}
+.rating p
+{
+    color: rgb(31, 85, 222);
+    font-size: 14px;
+    font-weight: 100;
+}
+.price
+{
+    display: flex;
+    width: 260px;
+    height: 50px;
+    justify-content: center;
+    align-items: baseline;
+}
+.price h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2px 5px 2px 16px;
+
+}
+.price p
+{
+    color: gray;
+    text-decoration-style: dashed;
+    margin: 2px 5px;
+    font-size: 12px;
+
+}
+.price .discount
+{
+    color: green;
+    font-size: 16px;
+}
+
+#Cart{
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    min-width: 600px;
+
+}
+#Items
+{
+    display: flex;
+    flex-direction: column;
+}
+#Cart h2
+{
+    font-weight: 510;
+    padding: 10px 30px;
+
+
+}
+#Cart h3
+{
+    padding: 20px 30px;
+}
+.catemdad
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+    margin: 10px 0px 10px 30px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+   
+}
+.catem
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    justify-content: space-around;
+
+}
+.proimg
+{
+    /* background-color: aqua; */
+    /* align-items: flex-end; */
+    display: flex;
+    width:160px;
+    height:150px;
+    overflow: hidden;
+
+}
+.catemhead
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.catemhead span
+{
+    right: 0%;
+    /* position: sticky; */
+    
+    color: darkgreen;
+    font-weight: 300;
+}
+.catemstock
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.catemimg
+{
+    width: 66px;
+    height: 18px;
+}
+.catemcat
+{
+    color: rgb(74, 73, 73);
+    font-size: 12px;
+}
+.catemdiv
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 280px;
+}
+.catemdel,.catemsee
+{
+    font-size: 12px;
+    color: rgb(31, 85, 222);
+}
+.catemdel:hover,.catemsee:hover
+{
+   text-decoration: underline;
+   border: 1px dotted gray;
+   cursor: pointer;
+}
+
+/* subtotal */
+#subtotal
+{
+    width: 320px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#cartside button
+{
+    cursor: pointer;
+}
+#eligible
+{
+    display: flex;
+    height:20px;
+    align-items: baseline;
+    /* background-color: blueviolet; */
+}
+#eligible img
+{
+    width:12px;
+    height: 12px;
+}
+#eligible p
+{
+    font-size: 12px;
+    color: rgb(31, 85, 222);
+    font-stretch: extra-condensed;
+}
+
+#carttotal
+{
+    font-size: 16px;
+    color: darkgreen;
+}
+#carttotal span{
+    font-weight: 600;
+    color: black;
+}
+#hItems
+{
+    display: flex;
+    overflow-x: scroll;
+}
+#hItems div
+{
+    display: flex;
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    overflow: hidden;
+
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#hItems img
+{
+    border-radius: 50%;
+}
